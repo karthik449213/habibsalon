@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium men's salon offering professional haircuts, beard trims, and styling services in Mylavaram, Andhra Pradesh">
+    <meta name="keywords" content="men's salon, haircut, beard trim, styling, barber shop, Mylavaram, grooming">
+    <title>Habib Beauty Salon | Professional Grooming Services</title>
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome 6 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-text">HABIB</span>
+                <span class="brand-subtext">BEAUTY SALON</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>ELEVATE YOUR STYLE</h1>
+                    <p class="lead">Experience premium grooming services tailored for the modern gentleman.</p>
+                    <button id="try-now-btn" class="btn btn-primary btn-lg">TRY NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card service-card h-100">
+                        <img class="card-img-top lazy" data-src="https://images.unsplash.com/photo-1599351431613-18ef1fdd27e1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Premium Haircut">
+                        <div class="card-body text-center">
+                            <div class="service-icon">
+                                <i class="fas fa-cut"></i>
+                            </div>
+                            <h3 class="card-title">Premium Haircut</h3>
+                            <p class="card-text">Expert precision cuts customized to enhance your features and style.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card service-card h-100">
+                        <img class="card-img-top lazy" data-src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Royal Shave">
+                        <div class="card-body text-center">
+                            <div class="service-icon">
+                                <i class="fas fa-razor"></i>
+                            </div>
+                            <h3 class="card-title">Royal Shave</h3>
+                            <p class="card-text">Classic hot towel shave with premium products for the smoothest finish.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card service-card h-100">
+                        <img class="card-img-top lazy" data-src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Beard Trim">
+                        <div class="card-body text-center">
+                            <div class="service-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h3 class="card-title">Beard Trim</h3>
+                            <p class="card-text">Shape and style your beard to perfection with our expert barbers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card service-card h-100">
+                        <img class="card-img-top lazy" data-src="https://images.unsplash.com/photo-1500048993953-d23a436266cf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Hair Styling">
+                        <div class="card-body text-center">
+                            <div class="service-icon">
+                                <i class="fas fa-spray-can"></i>
+                            </div>
+                            <h3 class="card-title">Hair Styling</h3>
+                            <p class="card-text">Complete your look with professional styling using premium products.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Gallery</h2>
+            <div class="row gallery-container">
+                <!-- Gallery images will be loaded with lazy loading -->
+                <div class="col-md-4 col-6 mb-4 gallery-item">
+                    <a href="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" data-lightbox="salon-gallery" data-title="Classic Haircut">
+                        <img class="img-fluid lazy" data-src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Classic Haircut">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 mb-4 gallery-item">
+                    <a href="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" data-lightbox="salon-gallery" data-title="Beard Grooming">
+                        <img class="img-fluid lazy" data-src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Beard Grooming">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 mb-4 gallery-item">
+                    <a href="https://images.unsplash.com/photo-1512864084360-7c0c4d0a0845?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" data-lightbox="salon-gallery" data-title="Premium Styling">
+                        <img class="img-fluid lazy" data-src="https://images.unsplash.com/photo-1512864084360-7c0c4d0a0845?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Premium Styling">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 mb-4 gallery-item">
+                    <a href="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" data-lightbox="salon-gallery" data-title="Hot Towel Shave">
+                        <img class="img-fluid lazy" data-src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Hot Towel Shave">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 mb-4 gallery-item">
+                    <a href="https://images.unsplash.com/photo-1599351431613-18ef1fdd27e1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" data-lightbox="salon-gallery" data-title="Modern Fade">
+                        <img class="img-fluid lazy" data-src="https://images.unsplash.com/photo-1599351431613-18ef1fdd27e1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Modern Fade">
+                    </a>
+                </div>
+                <div class="col-md-4 col-6 mb-4 gallery-item">
+                    <a href="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" data-lightbox="salon-gallery" data-title="Salon Interior">
+                        <img class="img-fluid lazy" data-src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Salon Interior">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img class="img-fluid rounded lazy" data-src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Elite Men's Salon Team">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Our Story</h3>
+                    <p>Founded in 2015, Elite Men's Salon provides exceptional grooming experiences for the modern gentleman. We combine traditional techniques with contemporary styles to deliver premium services tailored to each client's unique preferences.</p>
+                    
+                    <h3 class="mt-4">Our Mission</h3>
+                    <p>We create an environment where men enjoy professional grooming in a relaxed setting. Our focus on quality and personalized service has made us Mylavaram's premier destination for men's grooming.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Client Testimonials</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-item text-center">
+                            <img class="rounded-circle mx-auto mb-3 lazy" data-src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&h=150&q=80" alt="Client 1" width="100">
+                            <h4>John Doe</h4>
+                            <p class="text-muted">Business Executive</p>
+                            <div class="rating mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"The haircut and service I received at Elite Men's Salon was exceptional. David understood exactly what I wanted and delivered the perfect style. Highly recommended!"</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-item text-center">
+                            <img class="rounded-circle mx-auto mb-3 lazy" data-src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&h=150&q=80" alt="Client 2" width="100">
+                            <h4>Mark Wilson</h4>
+                            <p class="text-muted">IT Professional</p>
+                            <div class="rating mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="testimonial-text">"The royal shave experience was phenomenal. The hot towel treatment and precision shaving made me feel like royalty. Will definitely be coming back!"</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-item text-center">
+                            <img class="rounded-circle mx-auto mb-3 lazy" data-src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&h=150&q=80" alt="Client 3" width="100">
+                            <h4>Rajesh Kumar</h4>
+                            <p class="text-muted">Entrepreneur</p>
+                            <div class="rating mb-2">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"The team at Elite really knows how to give you the perfect look. I've been a regular for a year now, and I can't imagine going anywhere else for my grooming needs."</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div class="carousel-indicators testimonial-indicators">
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Professional Team</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <img class="img-fluid rounded-top lazy" data-src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Team Member 1">
+                        <div class="team-info text-center p-3">
+                            <h4>David Smith</h4>
+                            <p class="text-muted">Master Barber</p>
+                            <p class="team-bio">Specialist in classic cuts and modern fades with 10+ years of experience.</p>
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <img class="img-fluid rounded-top lazy" data-src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Team Member 2">
+                        <div class="team-info text-center p-3">
+                            <h4>Michael Johnson</h4>
+                            <p class="text-muted">Style Director</p>
+                            <p class="team-bio">Expert in hair styling and coloring techniques for the fashion-forward man.</p>
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <img class="img-fluid rounded-top lazy" data-src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Team Member 3">
+                        <div class="team-info text-center p-3">
+                            <h4>Sarah Williams</h4>
+                            <p class="text-muted">Beauty Specialist</p>
+                            <p class="team-bio">Specializes in facial treatments and skin care for a complete grooming experience.</p>
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-card">
+                        <img class="img-fluid rounded-top lazy" data-src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Team Member 4">
+                        <div class="team-info text-center p-3">
+                            <h4>Robert Chen</h4>
+                            <p class="text-muted">Beard Specialist</p>
+                            <p class="team-bio">Master of beard shaping, styling and maintenance with attention to detail.</p>
+                            <div class="team-social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <form id="contact-form" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                            <div class="invalid-feedback">
+                                Please provide your name.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid email address.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number (optional)</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter your message.
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info mb-4">
+                        <h3>Our Location</h3>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> governorpet, Vijayawada, Andhra Pradesh, India</p>
+                        <p><i class="fas fa-phone me-2"></i> +91 98765 43210</p>
+                        <p><i class="fas fa-envelope me-2"></i> info@beautysalonsalon.com</p>
+                        <p><i class="fas fa-clock me-2"></i> Open Monday to Saturday, 9:00 AM - 8:00 PM</p>
+                    </div>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30645.93177011861!2d80.60771347345592!3d16.797516746347656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35ba45df97c0f7%3A0xb3c8f68ef86ccff3!2sMylavaram%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1628596721173!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 habib beauty Salon. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="social-links">
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+       <script src="https://code.tidio.co/g29ndhbpthcdw1xcx408hnirq0twejxg.js" async></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>

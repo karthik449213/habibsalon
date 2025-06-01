@@ -1,0 +1,62 @@
+Create a single HTML page for a men's salon landing page. Use Bootstrap 5 via CDN for styling and layout. The page should be professional, modern, and visually appealing.
+
+**Key Features:**
+
+* **Header Section:**
+    * A prominent, responsive navigation bar with a clear logo (use a placeholder if you don't have a specific one) and links to "Services", "Gallery", "About Us", and "Contact".
+    * A large, eye-catching hero section with a compelling headline (e.g., "Elevate Your Style") and a brief, engaging description of the salon.
+    * A "Try Now" button that, when clicked, smoothly scrolls the user down to the "Contact Us" section.
+
+* **Services Section:**
+    * A well-structured section showcasing the salon's services (e.g., haircuts, shaves, beard trims, styling).
+    * Use Bootstrap cards to display each service with an icon (use a relevant Font Awesome or similar icon), a title, and a short description.
+
+* **Gallery Section:**
+    * A visually appealing gallery of high-quality images showcasing the salon's work.
+    * Use a responsive grid layout.
+    * Implement a lightbox feature so users can click on an image to view it in a larger size.
+
+* **About Us Section:**
+    * A section providing information about the salon, its history, and the team.
+    * Include a professional photo of the salon or the team.
+    * Use a clear and concise writing style.
+
+* **Contact Us Section:**
+    * A contact form where users can submit inquiries.
+    * Include fields for Name, Email, Phone Number (optional), and Message.
+    * Implement basic form validation using Bootstrap.
+    * Display the salon's address, phone number, email address, and a map.  Use a custom location marker on the map for "Mylavaram, Andhra Pradesh, India".  Use Google Maps Embed.
+
+* **Footer Section:**
+    * A simple footer with copyright information and links to social media profiles (use placeholder links).
+
+**Technical Requirements:**
+
+* **Mobile Responsiveness:** The entire website must be fully responsive and look great on all screen sizes (desktops, tablets, and smartphones).
+* **Lazy Loading:** Implement lazy loading for images (especially in the gallery) to improve page load speed.
+* **SEO Optimization:**
+    * Use semantic HTML5 markup.
+    * Include appropriate meta tags (title, description, keywords).
+    * Ensure proper heading structure (H1, H2, H3, etc.).
+    * Optimize images for web use (compressed and with descriptive alt attributes).
+* **Performance:** The website should load quickly.
+* **Smooth Scrolling:** Implement smooth scrolling for the "Try Now" button.
+* **Bootstrap 5:** Use Bootstrap 5 for the layout and styling. Use Bootstrap's grid system, components, and utilities effectively.
+* **Custom Styling:** Use custom CSS to enhance the design and give the website a unique look and feel beyond the default Bootstrap styles.  Focus on a modern and masculine aesthetic. Use CSS variables.
+
+**CDN Links:**
+
+* Include Bootstrap 5 CSS and JavaScript via CDN.  Use the latest stable version.
+* Include Font Awesome 6 (or a similar icon library) for icons via CDN.
+* Include jQuery via CDN.
+
+**Specific Instructions:**
+
+* The "Try Now" button should use JavaScript to smoothly scroll the user to the Contact Us section when clicked.
+* Use `Intersection Observer` for lazy loading of images.
+* The Google Maps Embed should be responsive.
+* Use a modern and masculine color palette (e.g., dark gray, black, and a subtle accent color).
+* Use a professional font (e.g., Inter, Open Sans).
+* The design should be clean, modern, and easy to navigate.
+
+Provide the complete HTML code for the landing page.
